@@ -16,7 +16,13 @@ The goal is to understand how a frontend communicates with a backend and how to 
 
 - A visually accurate replica of the Monster Cat website.  
 - A Node.js backend that serves data to the frontend.  
-- Dynamic content fetching using JavaScript.  
+- Dynamic content fetching using JavaScript.
+
+## UI
+![Screenshot (37)](https://github.com/user-attachments/assets/ff771af5-7f8e-49c4-aedb-034c1ad44d0d)
+![Screenshot (38)](https://github.com/user-attachments/assets/4ebea9cf-332d-47b7-9618-6b4b7eb4a4ec)
+![Screenshot (39)](https://github.com/user-attachments/assets/b5ed35fc-84cf-4845-87b9-245e75f95773)
+![Screenshot (40)](https://github.com/user-attachments/assets/a109f0e6-2327-4074-8177-b3fc616ba92d)
 
 ## Getting Started  
 

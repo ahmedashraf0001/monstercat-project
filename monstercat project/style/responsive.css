@@ -1,0 +1,71 @@
+
+@media (max-width: 600px) {
+    #album-img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    #album-img {
+        max-width: 150px; 
+    }
+}
+@media (max-width: 1700px) {
+    .vol-container{
+        width: 150px;
+    }
+}
+@media (max-width: 1300px) {
+    .control-player-container {
+        width: 100%; 
+        border-radius: 0; 
+        padding: 10px; 
+
+        transition: none !important; 
+    }.control-player-container:hover{
+        transform: translateY(-10%) !important; 
+        animation: glowing 5s infinite alternate;
+    }
+}
+@media (max-width: 913px) {
+    .song-info{
+        display: none !important;
+
+    }
+    .vol-container{
+        width: 200px;
+    }
+}
+@media (max-width: 700px) {
+    .volume-control{
+        display: none !important;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        z-index: 3;
+        background-color: rgba(37, 37, 37, 0.9);
+        height: 70px;
+    }
+    .nav-sidebar{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .list-icon{
+        display: flex;
+        flex-direction: row;
+    }
+    .f-filler{
+        display: none;
+    }
+}
+@media (max-width: 915px) {
+    .album-big-img{
+        width: 400px;
+    }
+}
+@media (max-height: 730px) {
+    .album-big-img{
+        width: 400px;
+    }
+}

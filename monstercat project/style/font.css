@@ -1,0 +1,76 @@
+.mb-none {
+    margin-bottom: 0;
+}
+.mt-none {
+    margin-top: 0;
+}
+.text-uppercase, .header-section, .header-page, .banner-carousel .navigation .nav-item {
+    text-transform: uppercase;
+}
+.fw-500, .header-page {
+    font-weight: 500;
+}
+@media (min-width: 1440px) {
+    .fs-desktop-xxxlarge {
+        font-size: 48px;
+    }
+}
+@media (min-width: 768px) {
+    .fs-tablet-large {
+        font-size: 32px;
+    }
+}
+.fs-medium {
+    font-size: 22px;
+}
+.ls-largish, .header-section, .header-page {
+    letter-spacing: 0.1em;
+}
+.text-stroke {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F1F1F1;
+    -webkit-text-fill-color: transparent;
+    text-stroke-width: 1px;
+    text-stroke-color: #F1F1F1;
+    text-fill-color: transparent;
+}
+.h-xxlarge, .header-page {
+    font-family: "Monument Extended", "Helvetica", Arial, sans-serif;
+    font-size: 4em;
+    line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Monument Extended", "Helvetica", Arial, sans-serif;
+    font-weight: 700;
+}
+@media (min-width: 1440px) {
+    .mb-desktop-medium {
+        margin-bottom: 2rem;
+    }
+}
+.mb-smallish {
+    margin-bottom: 1.5rem;
+}
+@media (min-width: 1440px) {
+    .mb-desktop-medium {
+        margin-bottom: 2rem;
+    }
+}
+.mb-smallish {
+    margin-bottom: 1.5rem;
+}
+.text-uppercase, .header-section, .header-page, .banner-carousel .navigation .nav-item {
+    text-transform: uppercase;
+}
+.h-normal {
+    font-family: "Monument Extended", "Helvetica", Arial, sans-serif;
+    font-size: 2em;
+    line-height: 1;
+}
+.mb-none {
+    margin-bottom: 0;
+}
+.mt-none {
+    margin-top: 0;
+}

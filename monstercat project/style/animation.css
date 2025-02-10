@@ -1,0 +1,56 @@
+@keyframes imgfade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes moveup {
+    0% { transform: translateX(0) scale(250%);  }
+    100% { transform: translateY(-140px) scale(250%);  }
+}
+@keyframes movedown {
+    0% {  transform: translateY(-140px) scale(250%);    }
+    100% { transform: none; }
+}
+@keyframes moveleft {
+    0% {  transform: translateX(0) ;}
+    100% { transform: translateX(240px) translateY(-50px);}
+}
+@keyframes moveright {
+    0% {   transform: translateX(240px) translateY(-50px);}
+    100% { transform: none; }
+}
+@keyframes sharebtnfade {
+    from{
+        background-color: transparent;
+        color: white;
+    }
+    to{
+        background-color: white;
+        color: black;
+
+    }
+}
+@keyframes startbtnfade {
+    from{
+        background-color:  var(--theme-color);
+        color: white;
+    }
+    to{
+        background-color: white;
+        color: black;
+
+    }
+}
+@keyframes glowingicons {
+    0% { filter: drop-shadow(1px 1px 10px  var(--theme-color)) drop-shadow(1px 1px 10px  var(--theme-color));}
+    50% { filter: drop-shadow(1px 1px 20px  var(--theme-color)) drop-shadow(0 0 40px  var(--theme-color)); filter: drop-shadow(1px 1px 10px var(--theme-color)); }
+    100% { filter: drop-shadow(1px 1px 10px  var(--theme-color)) drop-shadow(1px 1px 10px  var(--theme-color)); }
+}
+@keyframes glowing {
+    20% { box-shadow: 0 0 20px  var(--theme-color), 0 0 40px  var(--theme-color); }
+    100% { box-shadow: 0 0 10px  var(--theme-color); }
+}
+

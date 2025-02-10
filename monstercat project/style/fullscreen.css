@@ -1,0 +1,139 @@
+.fullscreen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 4;
+    background: rgba(0, 0, 0); 
+}
+
+.fullscreen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--image);
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px) brightness(40%);
+    z-index: -1; 
+}
+
+.fullscreen-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 4;
+    width: 90vw;
+    height: 90vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: white; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.logo-icon img{
+    width: 80px;
+    height: 80px;
+    border-radius:100px;
+}
+.logo-title{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.logo h1{
+    font-family: "Monument Extended", "Helvetica", Arial, sans-serif;
+    color: rgb(161, 161, 161);
+    font-weight: normal;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+.logo-title h3{
+    color: rgb(161, 161, 161);
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+.fullscreen-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.fullscreen-img{
+    transition: transform 0.5s;
+}
+.animate-img {
+    animation: imgfade 0.6s ease-in-out, 
+               moveup 1s ease-in-out forwards,  
+               movedown 1s ease-in-out 1.15s forwards; 
+    transform-origin: bottom left;
+}
+
+.animate-title {
+    animation: moveleft 1s ease-in-out forwards,  
+               moveright 1s ease-in-out 1.15s forwards;
+    transform-origin: bottom left;
+}
+
+.fullscreen-body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.fullscreen-info{
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 25px;
+}
+.fullscreen-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.fullscreen-title h1{
+    font-size: 60px;
+}
+.fullscreen-title h3{
+    font-size: 24px;
+    color: rgb(161, 161, 161);
+}
+.fullscreen-controls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#f-durbar .progress-container{
+    width: 100%;
+    margin: 0px 20px;
+}
+#f-durbar{
+    padding: 0 30px;
+}
+.f-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-filler{
+    flex: 1;
+}
+#f-pause-forward{
+    flex: 1;
+    height: 100px;
+}
